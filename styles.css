@@ -1,0 +1,26 @@
+body { font-family:sans-serif; background-color:black; color:white; margin:50px; }
+
+table { border-spacing:30px 0px; margin:0px auto; }
+td { vertical-align:center; }
+td.cover { text-align:right; }
+td.cover img { width:150px; height:200px; }
+
+div { margin:5px; }
+span { margin-right:1em; }
+
+div.score { font-family:monospace; }
+div.title { color:#9AF; }
+div.author { color:#57F; font-size:80%; }
+span.publisher { color:#7F5; }
+span.edition { color:purple; }
+span.year { color:yellow; }
+span.filesize { color:green; }
+
+input { background-color:black; border:1px dashed; border-radius:15px; font-size:100%; font-family:monospace; color:white; border-color:gray; width:80em; margin-top:0.3em; padding:0.2em 0.5em; }
+
+div.knap { font-size:75%; display:inline-block; padding:0.1em 0.5em; cursor:pointer; }
+div.lookup { color:#075; }
+div.fuzzfind { color:#660; }
+div.down { color:red; }
+
+pre { font-size:80%; color:#660; margin:10px; }
