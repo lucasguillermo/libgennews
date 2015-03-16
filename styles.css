@@ -9,12 +9,13 @@ div { margin:5px; }
 span { margin-right:1em; }
 
 div.score { font-family:monospace; }
-div.title { color:#9AF; }
+div.title a { color:#9AF; text-decoration:none; }
 div.author { color:#57F; font-size:80%; }
 span.publisher { color:#7F5; }
 span.edition { color:purple; }
 span.year { color:yellow; }
-span.filesize { color:green; }
+span.extension { color:cyan; }
+span.filesize { color:gray; font-size:80%; }
 
 input { background-color:black; border:1px dashed; border-radius:15px; font-size:100%; font-family:monospace; color:white; border-color:gray; width:80em; margin-top:0.3em; padding:0.2em 0.5em; }
 
@@ -24,3 +25,5 @@ div.fuzzfind { color:#660; }
 div.down { color:red; }
 
 pre { font-size:80%; color:#660; margin:10px; }
+
+span.downer { position:fixed; top:10px; right:10px; }

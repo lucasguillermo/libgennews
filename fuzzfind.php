@@ -20,7 +20,7 @@ if ((!isset($_GET['term'])) or (preg_match('/[\n\t"]/', $_GET['term']))) {
     exit();
 }
 
-$exec_line = $fuzzfindpy . ' "' . $_GET['term'] . '" -s -d "' . $ebooksdir . '"';
+$exec_line = $fuzzfindpy . ' -s "' . $_GET['term'] . '" "' . $ebooksdir . '"';
 error_log ('fuzzfind.php: ' . $exec_line);
 $svar = shell_exec($exec_line);
 if (!$svar) {
